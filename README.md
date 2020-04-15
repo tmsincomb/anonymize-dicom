@@ -10,18 +10,20 @@ docopt==0.6.2+
 ```
 
 # Installation
-```bash
+```markdown
 $ git clone git@github.com:tmsincomb/anonymize-dicom.git
 $ pip3 install -e ./anonymize-dicom
 ```
 
 # Simple Guide : Anonymize & Compress
+Copy folder, anonymize each dicom file and then compress the copied folder into a tar.gz file. Default output folder is "output_folder + '-anonymize" in the same directory. Same for the compressed output.
 ```bash
 $ anonymize-dicom -c dicom-folder
 ```
 
 # Complete Guide
-```Anonymize dicom files
+```markdown
+Anonymize dicom files
 
 Usage:
     anonymize-dicom  (-h | --help)
