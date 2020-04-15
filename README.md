@@ -11,13 +11,13 @@ docopt==0.6.2+
 
 # Installation
 ```bash
-git clone git@github.com:tmsincomb/anonymize-dicom.git
-pip3 install -e ./anonymize-dicom
+$ git clone git@github.com:tmsincomb/anonymize-dicom.git
+$ pip3 install -e ./anonymize-dicom
 ```
 
 # Simple Guide : Anonymize & Compress
 ```bash
-anonymize-dicom -c dicom-folder
+$ anonymize-dicom -c dicom-folder
 ```
 
 # Complete Guide
