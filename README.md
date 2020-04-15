@@ -3,10 +3,11 @@ Wish to share your dicom files to collaborators, but you don't want to break HIP
 
 
 # Requirements
+```
 python==3.7+
-pydicom==1.4.2
-docopt==0.6.2
-
+pydicom==1.4.2+
+docopt==0.6.2+
+```
 
 # Installation
 ```bash
