@@ -16,9 +16,11 @@ $ pip3 install -e ./anonymize-dicom
 ```
 
 # Simple Guide : Anonymize & Compress
-Copy folder, anonymize each dicom file and then compress the copied folder into a tar.gz file. Default output folder is "output_folder + '-anonymize" in the same directory. Same for the compressed output.
+Copy folder, anonymize each dicom file and then compress the copied folder into a tar.gz file. Default output folder is "output_folder + '-anonymized" in the same directory. Same for the compressed output.
 ```bash
 $ anonymize-dicom -c dicom-folder
+$ ls
+dicom-folder dicom-folder-anonymized dicom-folder-anonymized.tar.gz
 ```
 
 # Complete Guide
