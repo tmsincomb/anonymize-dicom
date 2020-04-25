@@ -44,7 +44,6 @@ Terminal Examples:
     anonymize-dicom -c dicom-folder
     anonymize-dicom -o dicom-folder-anonymized dicom-folder
     anonymize-dicom -c -o dicom-folder-anonymized dicom-folder
-    python3 anonymize-dicom/anonymize_dicom/anonymize.py dicom-folder
 
 Import Example:
     from anonymize_dicom import anonymize
